@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  9 APR 2026 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  9 APR 2026 11:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/michaelmeng/Projects/problem-sets/homework-47/homework-47.tex
-(/Users/michaelmeng/Projects/problem-sets/homework-47/homework-47.tex
+**/Users/michaelmeng/Projects/problem-sets/homework-47-multi/homework-47-multi.tex
+(/Users/michaelmeng/Projects/problem-sets/homework-47-multi/homework-47-multi.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -278,8 +278,8 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box55
-) (./homework-47.aux)
-\openout1 = `homework-47.aux'.
+) (./homework-47-multi.aux)
+\openout1 = `homework-47-multi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -300,9 +300,9 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 Package hyperref Info: Link coloring OFF on input line 16.
- (./homework-47.out) (./homework-47.out)
+ (./homework-47-multi.out) (./homework-47-multi.out)
 \@outlinefile=\write3
-\openout3 = `homework-47.out'.
+\openout3 = `homework-47-multi.out'.
 
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -340,24 +340,24 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-[2] (./homework-47.aux)
+[2] (./homework-47-multi.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `homework-47.out' has not changed.
+Package rerunfilecheck Info: File `homework-47-multi.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  10557 strings out of 473190
- 162529 string characters out of 5715801
- 559882 words of memory out of 5000000
+ 162661 string characters out of 5715801
+ 559918 words of memory out of 5000000
  33664 multiletter control sequences out of 15000+600000
  570283 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,601b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,613b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on homework-47.pdf (2 pages, 127708 bytes).
+Output written on homework-47-multi.pdf (2 pages, 127708 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream

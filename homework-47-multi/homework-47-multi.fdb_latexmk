@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1775752281.87778 "/Users/michaelmeng/Projects/problem-sets/homework-47/homework-47.tex" "homework-47.pdf" "homework-47" 1775752282.3236 0
-  "/Users/michaelmeng/Projects/problem-sets/homework-47/homework-47.tex" 1775752281.77211 1644 fd818c869bfaec0f306bfb4f20861116 ""
+["pdflatex"] 1775753641.54648 "/Users/michaelmeng/Projects/problem-sets/homework-47-multi/homework-47-multi.tex" "homework-47-multi.pdf" "homework-47-multi" 1775753641.99077 0
+  "/Users/michaelmeng/Projects/problem-sets/homework-47-multi/homework-47-multi.tex" 1775753640.94905 1643 c63760c371702f7b8680674fc091ab7e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1246382020 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -107,12 +107,12 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769936554 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "homework-47.aux" 1775752282.27994 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "homework-47.out" 1775752282.12418 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "homework-47.tex" 1775752281.77211 1644 fd818c869bfaec0f306bfb4f20861116 ""
+  "homework-47-multi.aux" 1775753641.94577 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "homework-47-multi.out" 1775753641.79753 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "homework-47-multi.tex" 1775753640.94905 1643 c63760c371702f7b8680674fc091ab7e ""
   (generated)
-  "homework-47.aux"
-  "homework-47.log"
-  "homework-47.out"
-  "homework-47.pdf"
+  "homework-47-multi.aux"
+  "homework-47-multi.log"
+  "homework-47-multi.out"
+  "homework-47-multi.pdf"
   (rewritten before read)
