@@ -1,0 +1,88 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+\usepackage{braket}
+\usepackage{bm}
+\usepackage{graphicx}
+
+\title{Homework \#47}
+\author{Michael Meng}
+
+\begin{document}
+
+\maketitle
+
+\section*{Problem 3}
+
+Problem: \( 5y' + y = 0 \)
+
+\begin{equation*}
+    \begin{aligned}
+        & y = \sum_{n = 0}^{\infty} a_{n}x^{n} \\
+        & y' = \sum_{n = 1}^{\infty} na_{n}x^{n-1} \\
+        & 5 \sum_{n = 1}^{\infty} na_{n}x^{n-1}
+        + \sum_{n = 0}^{\infty} a_{n}x^{n} = 0 \\
+        & 5 \sum_{n = 0}^{\infty} (n + 1)a_{n+1}x^{n}
+        + \sum_{n = 0}^{\infty} a_{n}x^{n} = 0 \\
+        & 5 \sum_{n = 0}^{\infty} [(n + 1)a_{n+1} 
+        + a_{n}] x^{n} = 0.
+    \end{aligned}
+\end{equation*}
+
+Thus,
+
+\begin{equation*}
+    \begin{aligned}
+        (n + 1) a_{n+1} + a_{n} = 0
+    \end{aligned}
+\end{equation*}
+
+Solving for \( a_{n+1} \):
+
+\[
+a_{n+1} = -\frac{a_{n}}{n+1}
+\]
+
+Creating a table:
+
+\[
+\begin{array}{c|c}
+    \mathbf{n} & \mathbf{a_{n}} \\
+    \hline
+    0 & a_{0} \\
+    [2px] \hline
+    1 & -a_{0} \\
+    [2px] \hline
+    2 & \frac{a_{0}}{2} \\
+    [2px] \hline
+    3 & -\frac{a_{0}}{3 \cdot 2}
+\end{array}
+\]
+
+Thus, the explicit formula is
+
+\[
+a_{n} = (-1)^{n} \frac{a_{0}}{n!}
+\]
+
+And solving for $y$ results in
+
+\[
+\begin{aligned}
+    y &= \sum_{n = 0}^{\infty} (-1)^{n} \frac{a_{0}}{n!} x^{n} \\
+    &= a_{0} \sum_{n = 0}^{\infty} \frac{(-1)^{n} x^{n}}{n!} \\
+\end{aligned}
+\]
+
+Answer: $\boxed{y = a_{0} \sum_{n = 0}^{\infty} \frac{(-1)^{n} x^{n}}{n!}}$
+
+\section*{Problem 4}
+
+Problem: $(x+2)y' + y = 0$
+
+\end{document}
