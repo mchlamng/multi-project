@@ -21,6 +21,8 @@
 
 Problem: \( 5y' + y = 0 \)
 
+Use the power series:
+
 \begin{equation*}
     \begin{aligned}
         & y = \sum_{n = 0}^{\infty} a_{n}x^{n} \\
@@ -74,8 +76,8 @@ And solving for $y$ results in
 
 \[
 \begin{aligned}
-    y &= \sum_{n = 0}^{\infty} (-1)^{n} \frac{a_{0}}{n!} x^{n} \\
-    &= a_{0} \sum_{n = 0}^{\infty} \frac{(-1)^{n} x^{n}}{n!} \\
+    y & = \sum_{n = 0}^{\infty} (-1)^{n} \frac{a_{0}}{n!} x^{n} \\
+    & = a_{0} \sum_{n = 0}^{\infty} \frac{(-1)^{n} x^{n}}{n!} \\
 \end{aligned}
 \]
 
@@ -84,5 +86,30 @@ Answer: $\boxed{y = a_{0} \sum_{n = 0}^{\infty} \frac{(-1)^{n} x^{n}}{n!}}$
 \section*{Problem 4}
 
 Problem: $(x+2)y' + y = 0$
+
+Use the power series:
+
+\[
+\begin{aligned}
+    & y = \sum_{n = 0}^{\infty} a_{n}x^{n} \\
+    & y' = \sum_{n = 1}^{\infty} na_{n}x^{n} \\
+    & (x+2) \sum_{n = 1}^{\infty} na_{n}x^{n-1}
+    + \sum_{n = 0}^{\infty} a_{n}x^{n} = 0 \\
+    & (x+2) \sum_{n = 0}^{\infty} (n+1)a_{n+1}x^{n}
+    + \sum_{n = 0}^{\infty} a_{n}x^{n} = 0 \\
+    & (x+2) \sum_{n=0}^{\infty} [(n+1)a_{n+1} + a_{n}]
+    x^{n} = 0
+\end{aligned}
+\]
+
+Creating a table:
+
+\[
+\begin{array}{c|c}
+    \mathbf{n} & \mathbf{a_{n}} \\
+    [2px] \hline
+    
+\end{array}
+\]
 
 \end{document}
