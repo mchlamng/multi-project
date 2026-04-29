@@ -61,23 +61,24 @@ To calculate the precise theoretic value, we will use the triple integral
 \begin{equation*}
     \iiint\limits_{Q} f(x, y, z) \, dV.
 \end{equation*}
-To find the bounds, we'll use cylindrical coordinates, as Cartesian
-coordinates can get messy. To find the bounds in cylindrical coordinates,
-we only need to solve for $r$, as $\theta \in [0, 2\pi]$ and $z \in [0, 36]$, as 
-given by our domain restrictions above.
+To find the bounds, we will use cylindrical coordinates, as Cartesian
+coordinates tend to end up messy in such calculations. To find the bounds
+in cylindrical coordinates, we only need to solve for $r$, as $\theta \in [0,
+2\pi]$ and $z \in [0, 36]$, as given by our domain restrictions above.
 
 To find the bounds for $r$, we first convert the rectangular $x$ and $y$
-to cylindrical coordiantes, returning $r$. Thus, the cone equation becomes
+to cylindrical coordiantes. Following the conversion, our cone can be 
+represented by the equation
 \begin{equation*}
     \frac{r^{2}}{900} = \frac{z^{2}}{1296}.
 \end{equation*}
-Solving for $r$:
+Solve for $r$:
 \begin{equation*}
     r = \sqrt{ \frac{900z^{2}}{1296} } = \sqrt{ \frac{25z^{2}}{36} } = \frac{5z}{6}. 
 \end{equation*}
-Thus, the upper bound for $r$ is $\frac{5z}{6}$, and because the lower
-bound for $r$ is $0$, we know that the final bounds for $r$ are $r \in [0,
-\frac{5z}{6}]$. Thus, the complete bounds are:
+Thus, the upper bound for $r$ is $\frac{5z}{6}$, and because the lower  
+bound for $r$ is $0$, we know that the complete bounds for $r$ are $[0,
+\frac{5z}{6}]$. Thus, the complete bounds, for all variables, are:
 \begin{equation*}
     \theta \in \left[ 0, 2\pi \right], \ z \in \left[ 0, 36 \right], \ \text{and}
     \ r \in \left[ 0, \frac{5z}{6} \right].
@@ -97,7 +98,10 @@ which we can solve as follows:
     = 5040 \int_{0}^{2\pi} \, d\theta
     = 5040 \, (2\pi)
     = 10800 \, (2\pi)
-    \approx \boxed{33929 \ \text{inch}^{3}}.
+    = 33929.2007.
 \end{align*}
+
+Thus, the theoretical precise volume of our cone is $\boxed{33929.2007 \
+\text{cubic inches}}$ (or approxinately $19.635$ cubic feet).
 
 \end{document}
