@@ -49,7 +49,14 @@ $36"$ (or $2.5'$ and $3'$, respectively). The equation that we used was
 \begin{equation*}
     \frac{x^{2}}{900} + \frac{y^{2}}{900} = \frac{z^{2}}{1296},
 \end{equation*}
-where $x \in [-30, 30]$, $y \in [-30, 30]$, and $z \in [0, 36]$.
+where $x \in [-30, 30]$, $y \in [-30, 30]$, and $z \in [0, 36]$. Our cone was 
+domain-restricted to only positive $z$ values, as it would be physically
+very difficult to construct a cone that extended into the ground.
+
+\subsection*{Construction Process}
+
+Our construction got off to a rough start, with our group not acquiring
+the proper materials until ….
 
 \newpage
 
@@ -68,14 +75,12 @@ in cylindrical coordinates, we only need to solve for $r$, as $\theta \in [0,
 
 To find the bounds for $r$, we first convert the rectangular $x$ and $y$
 to cylindrical coordiantes. Following the conversion, our cone can be 
-represented by the equation
-\begin{equation*}
-    \frac{r^{2}}{900} = \frac{z^{2}}{1296}.
-\end{equation*}
-Solve for $r$:
-\begin{equation*}
-    r = \sqrt{ \frac{900z^{2}}{1296} } = \sqrt{ \frac{25z^{2}}{36} } = \frac{5z}{6}. 
-\end{equation*}
+represented by the equation $\frac{r^{2}}{900} = \frac{z^{2}}{1296}$, which
+we can solve to find the upper bound for $r$:
+\begin{align*}
+    \frac{r^{2}}{900} = \frac{z^{2}}{1296} \implies r^{2} = \frac{900z^{2}}{1296} \implies r = 
+    \sqrt{ \frac{900z^{2}}{1296} } = \sqrt{ \frac{25z^{2}}{36} } = \frac{5z}{6}.
+\end{align*}
 Thus, the upper bound for $r$ is $\frac{5z}{6}$, and because the lower  
 bound for $r$ is $0$, we know that the complete bounds for $r$ are $[0,
 \frac{5z}{6}]$. Thus, the complete bounds, for all variables, are:
@@ -97,11 +102,11 @@ which we can solve as follows:
     &= \int_{0}^{2\pi} \left[ \frac{25z^{3}}{216} \right]_{0}^{36} \, d\theta
     = 5040 \int_{0}^{2\pi} \, d\theta
     = 5040 \, (2\pi)
-    = 10800 \, (2\pi)
-    = 33929.2007.
+    = 10800\pi
+    \approx 33929.2007.
 \end{align*}
 
 Thus, the theoretical precise volume of our cone is $\boxed{33929.2007 \
-\text{cubic inches}}$ (or approxinately $19.635$ cubic feet).
+\text{cubic inches}}$ (or approxinately $19.6348$ cubic feet).
 
 \end{document}

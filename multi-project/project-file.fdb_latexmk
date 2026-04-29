@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1777504459.70353 "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" "project-file.pdf" "project-file" 1777504460.21757 0
-  "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" 1777504459.58856 3383 3b54e1bc02de46c0c9d1bef3022d3460 ""
+["pdflatex"] 1777505477.43292 "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" "project-file.pdf" "project-file" 1777505477.92986 0
+  "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" 1777505477.32779 3763 0010b2fefd31ef6852ce07eaf4f6649f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -113,9 +113,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769936554 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "project-file.aux" 1777504460.17178 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "project-file.out" 1777504460.01524 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "project-file.tex" 1777504459.58856 3383 3b54e1bc02de46c0c9d1bef3022d3460 ""
+  "project-file.aux" 1777505477.88265 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "project-file.out" 1777505477.72255 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "project-file.tex" 1777505477.32779 3763 0010b2fefd31ef6852ce07eaf4f6649f ""
   (generated)
   "project-file.aux"
   "project-file.log"
