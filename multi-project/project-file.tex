@@ -40,9 +40,13 @@
 \maketitle
 \thispagestyle{fancy}
 
-\section*{Documentation}
+\tableofcontents
 
-\subsection*{Introduction \& Design}
+\newpage
+
+\section{Documentation}
+
+\subsection{Introduction \& Design}
 
 For this project, our group chose a cone with radius $30"$ and height
 $36"$ (or $2.5'$ and $3'$, respectively). The equation that we used was 
@@ -53,16 +57,16 @@ where $x \in [-30, 30]$, $y \in [-30, 30]$, and $z \in [0, 36]$. Our cone was
 domain-restricted to only positive $z$ values, as it would be physically
 very difficult to construct a cone that extended into the ground.
 
-\subsection*{Construction Process}
+\subsection{Construction Process}
 
 Our construction got off to a rough start, with our group not acquiring
 the proper materials until ….
 
 \newpage
 
-\section*{Calculations}
+\section{Calculations}
 
-\subsection*{Theoretical Precise Value}
+\subsection{Theoretical Precise Value}
 
 To calculate the precise theoretic value, we will use the triple integral
 \begin{equation*}
@@ -81,6 +85,7 @@ we can solve to find the upper bound for $r$:
     \frac{r^{2}}{900} = \frac{z^{2}}{1296} \implies r^{2} = \frac{900z^{2}}{1296} \implies r = 
     \sqrt{ \frac{900z^{2}}{1296} } = \sqrt{ \frac{25z^{2}}{36} } = \frac{5z}{6}.
 \end{align*}
+
 Thus, the upper bound for $r$ is $\frac{5z}{6}$, and because the lower  
 bound for $r$ is $0$, we know that the complete bounds for $r$ are $[0,
 \frac{5z}{6}]$. Thus, the complete bounds, for all variables, are:
@@ -89,12 +94,8 @@ bound for $r$ is $0$, we know that the complete bounds for $r$ are $[0,
     \ r \in \left[ 0, \frac{5z}{6} \right].
 \end{equation*}
 
-Therefore, the volume integral for the cone is If
-we plug in all the values for the triple integral, we end up with
-\begin{equation*}
-    \int_{0}^{2\pi} \int_{0}^{36} \int_{0}^{\frac{5z}{6}} r \, dr  \, dz  \, d\theta,
-\end{equation*}
-which we can solve as follows:
+Therefore, we can plug in the bounds and integrand for the triple integral
+and evaluate it:
 \begin{align*}
     &V = \int_{0}^{2\pi} \int_{0}^{36} \int_{0}^{\frac{5z}{6}} r \, dr  \, dz  \, d\theta
     = \int_{0}^{2\pi} \int_{0}^{36} \left[ \frac{r^{2}}{2} \right]_{0}^{\frac{5z}{6}} \, dz  \, d\theta
@@ -103,10 +104,10 @@ which we can solve as follows:
     = 5040 \int_{0}^{2\pi} \, d\theta
     = 5040 \, (2\pi)
     = 10800\pi
-    \approx 33929.2007.
+    \approx 33929.2007 \ \text{inch}^{3}.
 \end{align*}
 
-Thus, the theoretical precise volume of our cone is $\boxed{33929.2007 \
-\text{cubic inches}}$ (or approxinately $19.6348$ cubic feet).
+Thus, the theoretical precise volume of our cone is approximately $\boxed{
+33929.2007 \ \text{cubic inches}}$ (or approxinately $19.6348$ cubic feet).
 
 \end{document}

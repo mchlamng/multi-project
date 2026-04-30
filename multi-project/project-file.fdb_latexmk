@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1777505477.43292 "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" "project-file.pdf" "project-file" 1777505477.92986 0
-  "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" 1777505477.32779 3763 0010b2fefd31ef6852ce07eaf4f6649f ""
+["pdflatex"] 1777559848.01779 "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" "project-file.pdf" "project-file" 1777559848.50499 0
+  "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" 1777559847.41572 3645 dd85f2eb2168dd4dd88191c4cfd5a15a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -113,12 +113,14 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769936554 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "project-file.aux" 1777505477.88265 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "project-file.out" 1777505477.72255 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "project-file.tex" 1777505477.32779 3763 0010b2fefd31ef6852ce07eaf4f6649f ""
+  "project-file.aux" 1777559848.45834 769 8d7da72ce478731fb85a0707d3617e51 "pdflatex"
+  "project-file.out" 1777559848.45884 730 fcbebd9c4c57e908b5e5e00e3cf7308f "pdflatex"
+  "project-file.tex" 1777559847.41572 3645 dd85f2eb2168dd4dd88191c4cfd5a15a ""
+  "project-file.toc" 1777559848.45903 402 fb6ef2b53ebee6a593d2f734e1aa5c96 "pdflatex"
   (generated)
   "project-file.aux"
   "project-file.log"
   "project-file.out"
   "project-file.pdf"
+  "project-file.toc"
   (rewritten before read)
