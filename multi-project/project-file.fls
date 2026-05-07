@@ -213,6 +213,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 OUTPUT project-file.toc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Attachments/circle-measurement.jpg
+INPUT ./Attachments/circle-measurement.jpg
+INPUT ./Attachments/circle-measurement.jpg
+INPUT ./Attachments/circle-measurement.jpg
 INPUT project-file.aux
 INPUT ./project-file.out
 INPUT ./project-file.out
