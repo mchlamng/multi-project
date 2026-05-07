@@ -42,7 +42,7 @@
 
 \tableofcontents
 
-\newpage
+\clearpage
 
 \section{Construction}
 
@@ -53,7 +53,7 @@ $36"$ (or $2.5'$ and $3'$, respectively). The equation that we used was
 \begin{equation*}
     \frac{x^{2}}{225} + \frac{y^{2}}{225} = \frac{z^{2}}{900},
 \end{equation*}
-where $x \in [-30, 30]$, $y \in [-30, 30]$, and $z \in [0, 36]$. Our cone was 
+where $x \in [-15, 15]$, $y \in [-15, 15]$, and $z \in [0, 30]$. Our cone was 
 domain-restricted to only positive $z$ values, as it would be physically
 very difficult to construct a cone that extended into the ground.
 
@@ -62,7 +62,7 @@ very difficult to construct a cone that extended into the ground.
 Our construction got off to a rough start, with our group not acquiring
 the proper materials until ….
 
-\newpage
+\clearpage
 
 \section{Calculations}
 
@@ -75,11 +75,11 @@ To calculate the theoretical precise value, we will use the triple integral
 To find the bounds, we will use cylindrical coordinates, as Cartesian
 coordinates tend to end up messy in such calculations. To find the bounds
 in cylindrical coordinates, we only need to solve for $r$, as $\theta \in [0,
-2\pi]$ and $z \in [0, 36]$, as given by our domain restrictions above.
+2\pi]$ and $z \in [0, 30]$, as given by our domain restrictions above.
 
 To find the bounds for $r$, we first convert the rectangular $x$ and $y$
 to cylindrical coordiantes. Following the conversion, our cone can be 
-represented by the equation $\frac{r^{2}}{900} = \frac{z^{2}}{1296}$, which
+represented by the equation $\frac{r^{2}}{225} = \frac{z^{2}}{900}$, which
 we can solve to find the upper bound for $r$:
 \begin{align*}
     \frac{r^{2}}{225} = \frac{z^{2}}{900} \implies r^{2} = \frac{225z^{2}}{900} \implies r = 
@@ -90,37 +90,81 @@ Thus, the upper bound for $r$ is $\frac{z}{4}$, and because the lower
 bound for $r$ is $0$, we know that the complete bounds for $r$ are $[0,
 \frac{z}{4}]$. Thus, the complete bounds, for all variables, are:
 \begin{equation*}
-    \theta \in \left[ 0, 2\pi \right], \ z \in \left[ 0, 36 \right],  \ \text{and} 
+    \theta \in \left[ 0, 2\pi \right], \ z \in \left[ 0, 30 \right],  \ \text{and} 
     \ r \in \left[ 0, \frac{z}{2} \right].
 \end{equation*}
 
 Therefore, we can plug in the bounds and integrand for the triple integral
 and evaluate it:
 \begin{align*}
-    &V = \int_{0}^{2\pi} \int_{0}^{36} \int_{0}^{\frac{z}{2}} r \, dr  \, dz  \, d\theta
-    = \int_{0}^{2\pi} \int_{0}^{36} \left[ \frac{r^{2}}{2} \right]_{0}^{\frac{z}{2}} \, dz  \, d\theta
-    = \int_{0}^{2\pi} \int_{0}^{36} \frac{z^{2}}{8} \, dz  \, d\theta \\
-    &= \int_{0}^{2\pi} \left[ \frac{z^{3}}{24} \right]_{0}^{36} \, d\theta
-    = 1944 \int_{0}^{2\pi} \, d\theta
-    = 1944 \, (2\pi)
-    = 3888\pi
-    \approx 12214.5122 \ \text{inch}^{3}.
+    &V = \int_{0}^{2\pi} \int_{0}^{30} \int_{0}^{\frac{z}{2}} r \, dr  \, dz  \, d\theta
+    = \int_{0}^{2\pi} \int_{0}^{30} \left[ \frac{r^{2}}{2} \right]_{0}^{\frac{z}{2}} \, dz  \, d\theta
+    = \int_{0}^{2\pi} \int_{0}^{30} \frac{z^{2}}{8} \, dz  \, d\theta \\
+    &= \int_{0}^{2\pi} \left[ \frac{z^{3}}{24} \right]_{0}^{30} \, d\theta
+    = 1125 \int_{0}^{2\pi} \, d\theta
+    = 1125 \, (2\pi)
+    = 2250\pi
+    \approx 7068.5835.
 \end{align*}
 
 Thus, the theoretical precise volume of our cone is approximately $\boxed{
-12214.5122 \ \text{cubic inches}}$ (or approxinately $7.0686$ cubic feet).
+7068.5835 \ \text{cubic inches}}$ (or approxinately $4.0906$ cubic feet).
 
 \subsection{Theoretical Approximate Value}
 
-To calculate the theoretical approximate value, we will use the Riemann sum
+To calculate the theoretical approximate value of the equation $\frac{x^{2}}{225}
++ \frac{y^{2}}{225} = (\frac{z^{2}}{900})$, we must first convert to cylindrical
+coordinates to find the radius with respect to $z$, the height. The radius $r$
+can be found via the equations:
+\begin{equation*}
+    \frac{r^{2}}{225} = \frac{z^{2}}{900} \implies r^{2} = \frac{z^{2}}{4} \implies r = \frac{z}{2}.
+\end{equation*}
 
-\newpage
+To visualize the Riemann sum, imagine a layer cake with multiple layers 
+that are cylinders of arbitrary $h$ height, and gradually increasing radii.
+A  summation of all the heights of every layer equates to $z$, or $30$. 
+And, note that there are $n$ cylinders. Additionally, at the peak of the
+inverted cone, or height $30$, the radius is $15$, and at the minimum,
+or height $1$ (not including height $0$), the radius is $\frac{1}{2}$. Now,
+for the formal calculation.
+
+Let $r$ be the radius of the partition which is a cylinder, $h$ be the 
+height, $z$ be the height of the original cone, and $n$ be the number of 
+partitions that are taken, specifically referring to the height. The 
+radius, with respect to $z$, is $r = \frac{z}{2}$. The area of each 
+cylinder's circle is $\frac{z^{2}}{4}\pi$. Therefore, the area of each 
+partition is $\frac{z^{2}}{4}h\pi$. Finally, let $\Delta z_{0} = \frac{30 - 0}{n}$,
+and let $z_{i} = i \Delta z_{0}$. Inputting all the values into the Riemann sum and
+taking the limit of it is as follows:
+\begin{align*}
+    V = \sum_{i=1}^{n} [f(z_{i})]^{2} \pi \Delta z_{0} 
+    &= \sum_{i=1}^{n} \frac{z_{i}^{2}}{4}\pi \Delta z_{0} 
+    = \sum_{i=1}^{n} \frac{(i \Delta z_{0})^{2}\pi}{4} \Delta z_{0} 
+    = \sum_{i=1}^{n} \frac{\pi}{4} i^{2} \Delta z_{0}^{3} 
+    = \sum_{i=1}^{n} \frac{\pi}{4} i^{2} \frac{30^{3}}{n^{3}} \\
+    &= \sum_{i=1}^{n} \frac{\pi}{4} i^{2} \frac{27000}{n^{3}}
+    = \lim_{n \to \infty} \sum_{i=1}^{n} \frac{6750\pi}{n^{3}} i^{2}.
+\end{align*}
+Now, we hit a roadblock, as the value of $\sum_{i=1}^{n} i^{2}$ is unknown. Since $i$
+is the variable that changes each partition to the next, the summation is
+equal to $1^{2} + 2^{2} + 3^{2} + \dots + n^{2}$, and the explicit formula is $\frac{n(n
++ 1)(2n + 1)}{6}$, via the closed-form identity. Thus, the final Riemann
+sum is
+\begin{align*}
+    &V = \lim_{n \to \infty} \sum_{i=1}^{n} \frac{6750\pi}{n^{3}} \left[ \frac{n(n + 1)(2n + 1)}
+    {6} \right] = \frac{6750\pi}{3} \approx 7068.5835.
+\end{align*}
+
+Thus, the theoretical approximate value of our cone is approximately $\boxed{
+7068.5835 \ \text{cubic inches}}$ (or approximately $4.09986$ cubic feet.)
+
+\clearpage
 
 \section{Discussion}
 
 \subsection{Theoretical Precise Value}
 
-Our theoretical precise value is logical.
+…
 
 \subsection{Theoretical Approximate Value}
 
