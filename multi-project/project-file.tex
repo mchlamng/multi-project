@@ -51,7 +51,7 @@
 For this project, our group chose a cone with radius $30"$ and height
 $36"$ (or $2.5'$ and $3'$, respectively). The equation that we used was 
 \begin{equation*}
-    \frac{x^{2}}{900} + \frac{y^{2}}{900} = \frac{z^{2}}{1296},
+    \frac{x^{2}}{225} + \frac{y^{2}}{225} = \frac{z^{2}}{900},
 \end{equation*}
 where $x \in [-30, 30]$, $y \in [-30, 30]$, and $z \in [0, 36]$. Our cone was 
 domain-restricted to only positive $z$ values, as it would be physically
@@ -82,33 +82,33 @@ to cylindrical coordiantes. Following the conversion, our cone can be
 represented by the equation $\frac{r^{2}}{900} = \frac{z^{2}}{1296}$, which
 we can solve to find the upper bound for $r$:
 \begin{align*}
-    \frac{r^{2}}{900} = \frac{z^{2}}{1296} \implies r^{2} = \frac{900z^{2}}{1296} \implies r = 
-    \sqrt{ \frac{900z^{2}}{1296} } = \sqrt{ \frac{25z^{2}}{36} } = \frac{5z}{6}.
+    \frac{r^{2}}{225} = \frac{z^{2}}{900} \implies r^{2} = \frac{225z^{2}}{900} \implies r = 
+    \sqrt{ \frac{225z^{2}}{900} } = \sqrt{ \frac{z^{2}}{4} } = \frac{z}{2}.
 \end{align*}
 
-Thus, the upper bound for $r$ is $\frac{5z}{6}$, and because the lower  
+Thus, the upper bound for $r$ is $\frac{z}{4}$, and because the lower  
 bound for $r$ is $0$, we know that the complete bounds for $r$ are $[0,
-\frac{5z}{6}]$. Thus, the complete bounds, for all variables, are:
+\frac{z}{4}]$. Thus, the complete bounds, for all variables, are:
 \begin{equation*}
-    \theta \in \left[ 0, 2\pi \right], \ z \in \left[ 0, 36 \right], \ \text{and}
-    \ r \in \left[ 0, \frac{5z}{6} \right].
+    \theta \in \left[ 0, 2\pi \right], \ z \in \left[ 0, 36 \right],  \ \text{and} 
+    \ r \in \left[ 0, \frac{z}{2} \right].
 \end{equation*}
 
 Therefore, we can plug in the bounds and integrand for the triple integral
 and evaluate it:
 \begin{align*}
-    &V = \int_{0}^{2\pi} \int_{0}^{36} \int_{0}^{\frac{5z}{6}} r \, dr  \, dz  \, d\theta
-    = \int_{0}^{2\pi} \int_{0}^{36} \left[ \frac{r^{2}}{2} \right]_{0}^{\frac{5z}{6}} \, dz  \, d\theta
-    = \int_{0}^{2\pi} \int_{0}^{36} \frac{25z^{2}}{72} \, dz  \, d\theta \\
-    &= \int_{0}^{2\pi} \left[ \frac{25z^{3}}{216} \right]_{0}^{36} \, d\theta
-    = 5040 \int_{0}^{2\pi} \, d\theta
-    = 5040 \, (2\pi)
-    = 10800\pi
-    \approx 33929.2007 \ \text{inch}^{3}.
+    &V = \int_{0}^{2\pi} \int_{0}^{36} \int_{0}^{\frac{z}{2}} r \, dr  \, dz  \, d\theta
+    = \int_{0}^{2\pi} \int_{0}^{36} \left[ \frac{r^{2}}{2} \right]_{0}^{\frac{z}{2}} \, dz  \, d\theta
+    = \int_{0}^{2\pi} \int_{0}^{36} \frac{z^{2}}{8} \, dz  \, d\theta \\
+    &= \int_{0}^{2\pi} \left[ \frac{z^{3}}{24} \right]_{0}^{36} \, d\theta
+    = 1944 \int_{0}^{2\pi} \, d\theta
+    = 1944 \, (2\pi)
+    = 3888\pi
+    \approx 12214.5122 \ \text{inch}^{3}.
 \end{align*}
 
 Thus, the theoretical precise volume of our cone is approximately $\boxed{
-33929.2007 \ \text{cubic inches}}$ (or approxinately $19.6348$ cubic feet).
+12214.5122 \ \text{cubic inches}}$ (or approxinately $7.0686$ cubic feet).
 
 \subsection{Theoretical Approximate Value}
 
@@ -120,7 +120,7 @@ To calculate the theoretical approximate value, we will use the Riemann sum
 
 \subsection{Theoretical Precise Value}
 
-…
+Our theoretical precise value is logical.
 
 \subsection{Theoretical Approximate Value}
 

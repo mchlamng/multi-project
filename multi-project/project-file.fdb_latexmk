@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1777658101.52396 "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" "project-file.pdf" "project-file" 1777658102.02987 0
-  "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" 1777658100.85801 3893 4d397dd2f4d4b57f210cb073090da17f ""
+["pdflatex"] 1778123326.41032 "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" "project-file.pdf" "project-file" 1778123326.90459 0
+  "/Users/michaelmeng/Projects/latex-projects/multi-project/project-file.tex" 1778123326.30436 3912 b1f8ea568e79f5f482ac7a61dfc7fbcd ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -113,10 +113,10 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1769936554 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "project-file.aux" 1777658101.98003 1279 cdce0236556309ac5d008fcfb589771f "pdflatex"
-  "project-file.out" 1777658101.98061 1422 1466967d304c26b2b49127e4b8ded911 "pdflatex"
-  "project-file.tex" 1777658100.85801 3893 4d397dd2f4d4b57f210cb073090da17f ""
-  "project-file.toc" 1777658101.98081 748 a768c7c3775341edf8e4ecccb0183a91 "pdflatex"
+  "project-file.aux" 1778123326.85298 1279 cdce0236556309ac5d008fcfb589771f "pdflatex"
+  "project-file.out" 1778123326.85358 1422 1466967d304c26b2b49127e4b8ded911 "pdflatex"
+  "project-file.tex" 1778123326.30436 3912 b1f8ea568e79f5f482ac7a61dfc7fbcd ""
+  "project-file.toc" 1778123326.85378 748 a768c7c3775341edf8e4ecccb0183a91 "pdflatex"
   (generated)
   "project-file.aux"
   "project-file.log"
