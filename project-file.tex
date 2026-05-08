@@ -107,19 +107,19 @@ bound for $r$ is $0$, we know that the complete bounds for $r$ are $[0,
 
 Therefore, we can plug in the bounds and integrand for the triple integral
 and evaluate it:
-\begin{align*}
-    &V = \int_{0}^{2\pi} \int_{0}^{30} \int_{0}^{\frac{z}{2}} r \, dr  \, dz  \, d\theta
+\begin{gather*}
+    V = \int_{0}^{2\pi} \int_{0}^{30} \int_{0}^{\frac{z}{2}} r \, dr  \, dz  \, d\theta
     = \int_{0}^{2\pi} \int_{0}^{30} \left[ \frac{r^{2}}{2} \right]_{0}^{\frac{z}{2}} \, dz  \, d\theta
     = \int_{0}^{2\pi} \int_{0}^{30} \frac{z^{2}}{8} \, dz  \, d\theta \\
-    &= \int_{0}^{2\pi} \left[ \frac{z^{3}}{24} \right]_{0}^{30} \, d\theta
+    = \int_{0}^{2\pi} \left[ \frac{z^{3}}{24} \right]_{0}^{30} \, d\theta
     = 1125 \int_{0}^{2\pi} \, d\theta
     = 1125 \, (2\pi)
     = 2250\pi
     \approx 7068.5835.
-\end{align*}
+\end{gather*}
 
 Thus, the theoretical precise volume of our cone is approximately $\boxed{
-7068.5835 \ \text{cubic inches}}$ (or approxinately $4.0906$ cubic feet).
+7068.5835 \ \text{cubic inches}}$ (or approximately $4.0906$ cubic feet).
 
 \subsection{Theoretical Approximate Volume}
 
@@ -147,29 +147,25 @@ cylinder's circle is $\frac{z^{2}}{4}\pi$. Therefore, the area of each
 partition is $\frac{z^{2}}{4}h\pi$. Finally, let $\Delta z_{0} = \frac{30 - 0}{n}$,
 and let $z_{i} = i \Delta z_{0}$. Inputting all the values into the Riemann sum and
 taking the limit of it is as follows:
-\begin{align*}
-    V = \sum_{i=1}^{n} [f(z_{i})]^{2} \pi \Delta z_{0} 
-    &= \sum_{i=1}^{n} \frac{z_{i}^{2}}{4}\pi \Delta z_{0} 
-    = \sum_{i=1}^{n} \frac{(i \Delta z_{0})^{2}\pi}{4} \Delta z_{0} 
-    = \sum_{i=1}^{n} \frac{\pi}{4} i^{2} \Delta z_{0}^{3} 
-    = \sum_{i=1}^{n} \frac{\pi}{4} i^{2} \frac{30^{3}}{n^{3}} \\
-    &= \sum_{i=1}^{n} \frac{\pi}{4} i^{2} \frac{27000}{n^{3}}
-    = \lim_{n \to \infty} \sum_{i=1}^{n} \frac{6750\pi}{n^{3}} i^{2}.
-\end{align*}
-Now, we hit a roadblock, as the value of $\sum_{i=1}^{n} i^{2}$ is unknown. Since $i$
-is the variable that changes each partition to the next, the summation is
-equal to $1^{2} + 2^{2} + 3^{2} + \dots + n^{2}$, and the explicit formula is $\frac{n(n
-+ 1)(2n + 1)}{6}$, via the closed-form identity. Thus, the final Riemann
-sum is
-\begin{align*}
-    &V = \lim_{n \to \infty} \sum_{i=1}^{n} \frac{6750\pi}{n^{3}} \left[ \frac{n(n + 1)(2n + 1)}
-    {6} \right] = \frac{6750\pi}{3} \approx 7068.5835.
-\end{align*}
+\begin{gather*}
+    V = \sum_{i=1}^{5} [f(z_{i})]^{2} \pi \Delta z_{0} 
+    = \sum_{i=1}^{5} \frac{z_{i}^{2}}{4}\pi \Delta z_{0} 
+    = \sum_{i=1}^{5} \frac{(i \Delta z_{0})^{2}\pi}{4} \Delta z_{0} 
+    = \sum_{i=1}^{5} \frac{\pi}{4} i^{2} \Delta z_{0}^{3} 
+    = \sum_{i=1}^{5} \frac{\pi}{4} i^{2} \frac{30^{3}}{5^{3}} \\
+    = \sum_{i=1}^{5} \frac{\pi}{4} i^{2} \frac{27000}{5^{3}}
+    = \sum_{i=1}^{5} \frac{6750\pi}{5^{3}} i^{2}
+    = \frac{6750\pi}{125}(1^{2}) + \frac{6750\pi}{125}(2^{2}) + \dots + \frac{6750\pi}{125}(5^{2})
+    \approx 9330.5302
+\end{gather*}
 
-Thus, the theoretical approximate value of our cone is approximately $\boxed{
-7068.5835 \ \text{cubic inches}}$ (or approximately $4.0906$ cubic feet.)
+Thus, the theoretical approximate volume of our cone is approximately
+$\boxed{9330.5302 \ \text{cubic inches}}$ (or approximately $5.3996$
+cubic feet).
 
 \subsection{Actual Approximate Volume}
+
+…
 
 \clearpage
 
@@ -177,7 +173,16 @@ Thus, the theoretical approximate value of our cone is approximately $\boxed{
 
 \subsection{Theoretical Precise Volume}
 
-…
+Our theoretical precise volume is $7068.5835$ cubic inches, and the volume
+makes sense for the shape that we're planning to construct. Because the
+volume of the cylinder with $r = 15"$ and $z = 30"$ can be found via the
+calculations
+\begin{equation*}
+    V = \pi r^{2} z = \pi 15^{2} (30) = \pi 225 (30) = 6750 \pi,
+\end{equation*}
+and the final volume is approximately $21205.7504$ cubic inches. The volume 
+of our cone is thus contained in the volume of the cylinder, which is logical 
+and appropriate.
 
 \subsection{Theoretical Approximate Volume}
 
