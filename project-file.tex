@@ -32,10 +32,10 @@
 \fancyfoot{}
 \renewcommand{\footrulewidth}{0.4pt}
 \rfoot{\small \thepage}
-\lfoot{\small Charoenrattanaruk, Harpavat, Adams, and Meng}
+\lfoot{\small Adams, Meng, Harpavat, and Charoenrattanaruk}
 
 \title{\textbf{Multivariable Calculus Final Project}}
-\author{Parrie, Keshav, Diego, and Michael}
+\author{Diego, Michael, Keshav, and Parrie}
 \date{}
 
 \begin{document}
@@ -51,43 +51,77 @@
 
 \subsection{Introduction \& Design}
 
-For this project, our group chose a cone with radius $30"$ and height
-$36"$ (or $2.5'$ and $3'$, respectively). The equation that we used was 
+For this project, our group chose a cone with radius $30"$ and height $36"$ (or
+$2.5'$ and $3'$, respectively). The equation that we used was 
 \begin{equation*}
     \frac{x^{2}}{225} + \frac{y^{2}}{225} = \frac{z^{2}}{900},
 \end{equation*}
-where $x \in [-15, 15]$, $y \in [-15, 15]$, and $z \in [0, 30]$. Our cone was 
-domain-restricted to only positive $z$ values, as it would be physically
-very difficult to construct a cone that extended into the ground.
+where $x \in [-15, 15]$, $y \in [-15, 15]$, and $z \in [0, 30]$. Our cone was
+domain-restricted to only positive $z$ values, as it would be physically very
+difficult to construct a cone that extended into the ground.
 
 \subsection{Construction Process}
 
-We decided to construct an cone with a peak radius of $15"$ and a peak 
-height of $30"$, with the peak radius at the base. To construct the 
-cone, we used wooden sticks to prop up the circles that represented
-certain radii, and we used metal wire to create those circles. 
+We decided to construct an cone with a peak radius of $15"$ and a peak height of
+$30"$, with the peak radius at the base. To construct the cone, we used wooden
+sticks to prop up the circles that represented certain radii, and we used metal
+wire to create those circles. We originally planned to construct a cone with
+peak radius $30"$ and a peak height of $36"$, but Diego pointed out that such a
+cone would exceed the dimensions of the project area.
 
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.5\textwidth]{diego-sawing-wood.jpg}
     \caption*{Diego sawing the wooden support sticks.}
     \label{fig:diego-sawing-wood}
 \end{figure}
 
-The construction process consisted of measuring out the radii for the
-wire circles and placing the wooden sticks on the outer sides of the
-cone to then place those wires on. The construction process required
-sawing the wooden sticks, which were at first too long, to the proper
-lengths to fit on the edges, or hypotenuses, approximately $33.5"$.
+The construction process consisted of measuring out the radii for the wire
+circles and placing the wooden sticks on the outer sides of the cone to then
+place those wires on. The construction process required sawing the wooden
+sticks, which were at first too long, to the proper lengths to fit on the edges,
+or hypotenuses, approximately $33.5"$.
 
-\begin{figure}[h]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.5\textwidth]{circle-measurement}
     \caption*{Diego measuring a circle for the cone.}
     \label{fig:circle-measurement}
 \end{figure}
 
-…
+Our construction eventually yielded a finished cone, with five wire circles
+around the middle and hypotenuse poles. We used wood glue and some, generously,
+tape to hold everything down. We also asked another group for their extra foam
+pieces for the platform and borrowed some wooden poles and steel wire.
+Basically, we survived on communism.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[trim=0 500pt 0 500pt, clip, width=0.5\textwidth]{cone-construction}
+    \caption*{Diego and Keshav working on the wooden sticks.}
+    \label{fig:cone-construction}
+\end{figure}
+
+Afterwards, we started on our theme: ice cream. As the cone was constructed with
+the peak radius at the base, instead of at the highest $z$ value, we decided to
+go with a fallen ice cream cone. So we used white construction paper and brown
+construction paper to wrap one half of the cone, and ripped pieces of green,
+pink, yellow, blue, and red construction paper for the sprinkles. Our (almost)
+finished product looked as follows:
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[trim=0 300pt 0 600pt, clip, width=0.5\textwidth]{cone-decoration}
+    \caption*{The almost finished cone, without sprinkles.}
+    \label{fig:cone-decoration}
+\end{figure}
+
+Throughout the project, we all learned different things: Keshav learned how to
+(hopefully) purchase ice cream for the class; Diego learned how to build the
+project; I (Michael) learned too many \LaTeX \ formatting methods; and Parrie
+learned that one can somehow get by on a project without contributing. In the
+end, the project was fun. We'll just need to find \emph{something} to do with
+the final product. (Maybe Parrie can take it home.)
 
 \clearpage
 
@@ -100,14 +134,14 @@ To calculate the theoretical precise value, we will use the triple integral
     \iiint\limits_{Q} f(x, y, z) \, dV.
 \end{equation*}
 To find the bounds, we will use cylindrical coordinates, as Cartesian
-coordinates tend to end up messy in such calculations. To find the bounds
-in cylindrical coordinates, we only need to solve for $r$, as $\theta \in [0,
+coordinates tend to end up messy in such calculations. To find the bounds in
+cylindrical coordinates, we only need to solve for $r$, as $\theta \in [0,
 2\pi]$ and $z \in [0, 30]$, as given by our domain restrictions above.
 
-To find the bounds for $r$, we first convert the rectangular $x$ and $y$
-to cylindrical coordiantes. Following the conversion, our cone can be 
-represented by the equation $\frac{r^{2}}{225} = \frac{z^{2}}{900}$, which
-we can solve to find the upper bound for $r$:
+To find the bounds for $r$, we first convert the rectangular $x$ and $y$ to
+cylindrical coordiantes. Following the conversion, our cone can be represented
+by the equation $\frac{r^{2}}{225} = \frac{z^{2}}{900}$, which we can solve to
+find the upper bound for $r$:
 \begin{align*}
     \frac{r^{2}}{225} = \frac{z^{2}}{900} \implies r^{2} = \frac{225z^{2}}{900} \implies r = 
     \sqrt{ \frac{225z^{2}}{900} } = \sqrt{ \frac{z^{2}}{4} } = \frac{z}{2}.
@@ -121,8 +155,8 @@ bound for $r$ is $0$, we know that the complete bounds for $r$ are $[0,
     \ r \in \left[ 0, \frac{z}{2} \right].
 \end{equation*}
 
-Therefore, we can plug in the bounds and integrand for the triple integral
-and evaluate it:
+Therefore, we can plug in the bounds and integrand for the triple integral and
+evaluate it:
 \begin{gather*}
     V = \int_{0}^{2\pi} \int_{0}^{30} \int_{0}^{\frac{z}{2}} r \, dr  \, dz  \, d\theta
     = \int_{0}^{2\pi} \int_{0}^{30} \left[ \frac{r^{2}}{2} \right]_{0}^{\frac{z}{2}} \, dz  \, d\theta
@@ -139,29 +173,28 @@ Thus, the theoretical precise volume of our cone is approximately $\boxed{
 
 \subsection{Theoretical Approximate Volume}
 
-To calculate the theoretical approximate value of the equation $\frac{x^{2}}{225}
-+ \frac{y^{2}}{225} = (\frac{z^{2}}{900})$, we must first convert to cylindrical
-coordinates to find the radius with respect to $z$, the height. The radius $r$
-can be found via the equations:
+To calculate the theoretical approximate value of the equation
+$\frac{x^{2}}{225} + \frac{y^{2}}{225} = (\frac{z^{2}}{900})$, we must first
+convert to cylindrical coordinates to find the radius with respect to $z$, the
+height. The radius $r$ can be found via the equations:
 \begin{equation*}
     \frac{r^{2}}{225} = \frac{z^{2}}{900} \implies r^{2} = \frac{z^{2}}{4} \implies r = \frac{z}{2}.
 \end{equation*}
 
-To visualize the Riemann sum, imagine a layer cake with multiple layers 
-that are cylinders of arbitrary $h$ height, and gradually increasing radii.
-A  summation of all the heights of every layer equates to $z$, or $30$. 
-And, note that there are $n$ cylinders. Additionally, at the peak of the
-inverted cone, or height $30$, the radius is $15$, and at the minimum,
-or height $1$ (not including height $0$), the radius is $\frac{1}{2}$. Now,
-for the formal calculation.
+To visualize the Riemann sum, imagine a layer cake with multiple layers that are
+cylinders of arbitrary $h$ height, and gradually increasing radii. A  summation
+of all the heights of every layer equates to $z$, or $30$. And, note that there
+are $n$ cylinders. Additionally, at the peak of the inverted cone, or height
+$30$, the radius is $15$, and at the minimum, or height $1$ (not including
+height $0$), the radius is $\frac{1}{2}$. Now, for the formal calculation.
 
-Let $r$ be the radius of the partition which is a cylinder, $h$ be the 
-height, $z$ be the height of the original cone, and $n$ be the number of 
-partitions that are taken, specifically referring to the height. The 
-radius, with respect to $z$, is $r = \frac{z}{2}$. The area of each 
-cylinder's circle is $\frac{z^{2}}{4}\pi$. Therefore, the area of each 
-partition is $\frac{z^{2}}{4}h\pi$. Finally, let $\Delta z_{0} = \frac{30 - 0}{n}$,
-and let $z_{i} = i \Delta z_{0}$. Inputting all the values into the Riemann sum and
+Let $r$ be the radius of the partition which is a cylinder, $h$ be the height,
+$z$ be the height of the original cone, and $n$ be the number of partitions that
+are taken, specifically referring to the height. The radius, with respect to
+$z$, is $r = \frac{z}{2}$. The area of each cylinder's circle is
+$\frac{z^{2}}{4}\pi$. Therefore, the area of each partition is
+$\frac{z^{2}}{4}h\pi$. Finally, let $\Delta z_{0} = \frac{30 - 0}{n}$, and let
+$z_{i} = i \Delta z_{0}$. Inputting all the values into the Riemann sum and
 taking the limit of it is as follows:
 \begin{gather*}
     V = \sum_{i=1}^{5} [f(z_{i})]^{2} \pi \Delta z_{0} 
@@ -176,8 +209,8 @@ taking the limit of it is as follows:
 \end{gather*}
 
 Thus, the theoretical approximate volume of our cone is approximately
-$\boxed{9330.5302 \ \text{cubic inches}}$ (or approximately $5.3996$
-cubic feet).
+$\boxed{9330.5302 \ \text{cubic inches}}$ (or approximately $5.3996$ cubic
+feet).
 
 \subsection{Actual Approximate Volume}
 
@@ -189,26 +222,23 @@ cubic feet).
 
 \subsection{Theoretical Precise Volume}
 
-Our theoretical precise volume is $7068.5835$ cubic inches, and the volume
-makes sense for the shape that we're planning to construct. Because the
-volume of the cylinder with $r = 15"$ and $z = 30"$ can be found via the
-calculations
+Our theoretical precise volume is $7068.5835$ cubic inches, and the volume makes
+sense for the shape that we're planning to construct. Because the volume of the
+cylinder with $r = 15"$ and $z = 30"$ can be found via the calculations
 \begin{equation*}
     V = \pi r^{2} z = \pi 15^{2} (30) = \pi 225 (30) = 6750 \pi,
 \end{equation*}
-and the final volume is approximately $21205.7504$ cubic inches. The volume 
-of our cone is thus contained in the volume of the cylinder, which is logical 
-and appropriate.
+and the final volume is approximately $21205.7504$ cubic inches. The volume of
+our cone is thus contained in the volume of the cylinder, which is logical and
+appropriate.
 
 \subsection{Theoretical Approximate Volume}
 
-…
+Our theoretical approximate volume, found with the Riemann sum $\sum_{i=1}^{5}
+\frac{6750\pi}{125} i^{2}$ yielded the volume $9330.5302$ cubic inches, which
+makes sense, as our 
 
 \subsection{Actual Approximate Volume}
-
-…
-
-\subsection{Percent Error Calculations}
 
 …
 

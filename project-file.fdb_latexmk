@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1778202498.06461 "/Users/michaelmeng/Projects/multi-project/project-file.tex" "project-file.pdf" "project-file" 1778202498.99616 0
-  "/Users/michaelmeng/Projects/multi-project/project-file.tex" 1778202497.96854 7561 94bbd904182b9053537c45125a70803f ""
+["pdflatex"] 1778204859.99626 "/Users/michaelmeng/Projects/multi-project/project-file.tex" "project-file.pdf" "project-file" 1778204860.86503 0
+  "/Users/michaelmeng/Projects/multi-project/project-file.tex" 1778204859.87451 9533 bf9090acec619bb9d37ec2456144be9d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -33,6 +33,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1229303445 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1229303445 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm" 1229303445 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
@@ -47,6 +48,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -116,11 +118,13 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "Attachments/circle-measurement.jpg" 1778166850.8503 5265753 314c6352b5bcd393a98d6eed9930b178 ""
+  "Attachments/cone-construction.jpg" 1778166851.19994 2880763 18377b32df9f924524e1166b2778adca ""
+  "Attachments/cone-decoration.jpg" 1778201863.75081 3892538 c27334c03a8362ba9fcae23311d15c20 ""
   "Attachments/diego-sawing-wood.jpg" 1778166851.77673 4515058 feb38bd94a626aa94dfa8da1382bd3d9 ""
-  "project-file.aux" 1778202498.89862 2022 5c1db84d5e7530b05de43bedf886627e "pdflatex"
-  "project-file.out" 1778202498.90003 2014 b670f7ac96f47425c49dc78fb4f560de "pdflatex"
-  "project-file.tex" 1778202497.96854 7561 94bbd904182b9053537c45125a70803f ""
-  "project-file.toc" 1778202498.90036 1026 69e3c74d039aefc852d1cceb522f01fa "pdflatex"
+  "project-file.aux" 1778204860.81091 2163 136e7e9a561087ef28c34509cf23dcc3 "pdflatex"
+  "project-file.out" 1778204860.81144 1820 39e4c587dccda997b2dd1e47f0da356b "pdflatex"
+  "project-file.tex" 1778204859.87451 9533 bf9090acec619bb9d37ec2456144be9d ""
+  "project-file.toc" 1778204860.81164 934 1107dd923ceeeb96012f968d6eded255 "pdflatex"
   (generated)
   "project-file.aux"
   "project-file.log"

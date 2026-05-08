@@ -225,6 +225,15 @@ INPUT ./Attachments/circle-measurement.jpg
 INPUT ./Attachments/circle-measurement.jpg
 INPUT ./Attachments/circle-measurement.jpg
 INPUT ./Attachments/circle-measurement.jpg
+INPUT ./Attachments/cone-construction.jpg
+INPUT ./Attachments/cone-construction.jpg
+INPUT ./Attachments/cone-construction.jpg
+INPUT ./Attachments/cone-construction.jpg
+INPUT ./Attachments/cone-decoration.jpg
+INPUT ./Attachments/cone-decoration.jpg
+INPUT ./Attachments/cone-decoration.jpg
+INPUT ./Attachments/cone-decoration.jpg
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT project-file.aux
 INPUT ./project-file.out
 INPUT ./project-file.out
@@ -239,3 +248,4 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
