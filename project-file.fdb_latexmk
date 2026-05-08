@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1778204859.99626 "/Users/michaelmeng/Projects/multi-project/project-file.tex" "project-file.pdf" "project-file" 1778204860.86503 0
-  "/Users/michaelmeng/Projects/multi-project/project-file.tex" 1778204859.87451 9533 bf9090acec619bb9d37ec2456144be9d ""
+["pdflatex"] 1778206307.51288 "/Users/michaelmeng/Projects/multi-project/project-file.tex" "project-file.pdf" "project-file" 1778206308.32666 0
+  "/Users/michaelmeng/Projects/multi-project/project-file.tex" 1778206307.37574 10655 4b26b31ed930f3d419dd15d05e83cacb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -121,10 +121,10 @@
   "Attachments/cone-construction.jpg" 1778166851.19994 2880763 18377b32df9f924524e1166b2778adca ""
   "Attachments/cone-decoration.jpg" 1778201863.75081 3892538 c27334c03a8362ba9fcae23311d15c20 ""
   "Attachments/diego-sawing-wood.jpg" 1778166851.77673 4515058 feb38bd94a626aa94dfa8da1382bd3d9 ""
-  "project-file.aux" 1778204860.81091 2163 136e7e9a561087ef28c34509cf23dcc3 "pdflatex"
-  "project-file.out" 1778204860.81144 1820 39e4c587dccda997b2dd1e47f0da356b "pdflatex"
-  "project-file.tex" 1778204859.87451 9533 bf9090acec619bb9d37ec2456144be9d ""
-  "project-file.toc" 1778204860.81164 934 1107dd923ceeeb96012f968d6eded255 "pdflatex"
+  "project-file.aux" 1778206308.27564 2163 447e1e26f432b7c12b570e1dcfb3e4b8 "pdflatex"
+  "project-file.out" 1778206308.27615 1820 39e4c587dccda997b2dd1e47f0da356b "pdflatex"
+  "project-file.tex" 1778206307.37574 10655 4b26b31ed930f3d419dd15d05e83cacb ""
+  "project-file.toc" 1778206308.27634 934 1107dd923ceeeb96012f968d6eded255 "pdflatex"
   (generated)
   "project-file.aux"
   "project-file.log"

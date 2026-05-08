@@ -33,6 +33,7 @@
 \renewcommand{\footrulewidth}{0.4pt}
 \rfoot{\small \thepage}
 \lfoot{\small Adams, Meng, Harpavat, and Charoenrattanaruk}
+\setlength{\headheight}{13.59999pt}
 
 \title{\textbf{Multivariable Calculus Final Project}}
 \author{Diego, Michael, Keshav, and Parrie}
@@ -118,8 +119,7 @@ finished product looked as follows:
 
 Throughout the project, we all learned different things: Keshav learned how to
 (hopefully) purchase ice cream for the class; Diego learned how to build the
-project; I (Michael) learned too many \LaTeX \ formatting methods; and Parrie
-learned that one can somehow get by on a project without contributing. In the
+project; and I (Michael) learned too many \LaTeX \ formatting methods. In the
 end, the project was fun. We'll just need to find \emph{something} to do with
 the final product. (Maybe Parrie can take it home.)
 
@@ -208,7 +208,7 @@ taking the limit of it is as follows:
     \approx 9330.5302
 \end{gather*}
 
-Thus, the theoretical approximate volume of our cone is approximately
+The theoretical approximate volume of our cone is approximately
 $\boxed{9330.5302 \ \text{cubic inches}}$ (or approximately $5.3996$ cubic
 feet).
 
@@ -236,7 +236,32 @@ appropriate.
 
 Our theoretical approximate volume, found with the Riemann sum $\sum_{i=1}^{5}
 \frac{6750\pi}{125} i^{2}$ yielded the volume $9330.5302$ cubic inches, which
-makes sense, as our 
+makes sense, as we took the cylinders of $h$ height stacked on top of each
+other, from the base of the cone to the point. Those cylinders are an
+overestimate, as they were calculated by finding the radius at the base of each
+cylinder and extending the area of the base to height $h$, effectively leaving
+the base area at the next point as well.
+
+To find the percent error of our theoretical approximate volume, we can use the
+formula for percent error:
+\begin{gather*}
+    \text{Percent Error}
+    = \left| \frac{\text{Measured Value} - \text{True Value}}{\text{True Value}} \right| \times 100\%.
+\end{gather*}
+Our true value would be the value of the integral, $7068.5835$, and our measured
+value would be the value of the Riemann sum, our theoretical approximate value,
+$9330.5302$. The resulting calculations, with those numbers plugged in, would
+be:
+\begin{gather*}
+    \text{Percent Error} 
+    = \left| \frac{9330.5302 - 7068.5835}{7068.5835} \right| \times 100
+    = \left| \frac{2261.9467}{7068.5835} \right| \times 100 \\
+    = \left| 0.3199999972 \right| \times 100
+    \approx 32 \%
+\end{gather*}
+
+Thus, our theoretical approximate volume's percent error is approximately
+$32\%$.
 
 \subsection{Actual Approximate Volume}
 
