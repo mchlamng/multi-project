@@ -117,12 +117,6 @@ finished product looked as follows:
     \label{fig:cone-decoration}
 \end{figure}
 
-Throughout the project, we all learned different things: Keshav learned how to
-(hopefully) purchase ice cream for the class and to construct a Riemann sum;
-Diego learned how to build the project; and I (Michael) learned too many \LaTeX
-\ formatting methods. In the end, the project was fun. We'll just need to find
-\emph{something} to do with the final product (maybe Parrie can take it home.)
-
 \clearpage
 
 \section{Calculations}
@@ -214,7 +208,20 @@ feet).
 
 \subsection{Actual Approximate Volume}
 
-…
+To calculate the actual approximate volume, we'll use the same method that we
+used for the theoretical approximate volume, as both are approximate. We'll
+calculate the volumes of each partition (a cylinder) and add them up. The radii
+that we recorded, in order from the base to the point, were $12"$, $9"$, $7"$,
+$5"$, $2.5"$, and $1"$, and the heights of each circle that we recorded were
+$5"$, $4"$, $6"$, $6"$, $5.5"$, and $3"$, respectively. Thus, the calculations
+can be found via the summation
+\begin{gather*}
+    V = \sum \pi r^{2} (h) = 12^{2} \pi (5) + 9^{2} \pi (4) + \dots + 1^{2} \pi (3)
+    \approx 4718.4896
+\end{gather*}
+
+Our actual approximate volume is roughly $\boxed{4718.4896 \ \text{cubic
+inches}}$ (or $2.7306$ cubic feet).
 
 \clearpage
 
@@ -261,10 +268,35 @@ be:
 \end{gather*}
 
 Thus, our theoretical approximate volume's percent error is approximately
-$32\%$.
+$\boxed{32\%}$.
 
 \subsection{Actual Approximate Volume}
 
-…
+Because we calculated our actual approximate volume with a Riemann sum that took
+partitions with radii based on the highest point of the partition, whereas when
+we calculated our theoretical approximate value, we took Riemann sum partitions
+with radii based on the lowest point of partition. The difference led to the
+sums being under- and overestimates, respectively. View the actual approximate
+volume as the right Riemann sum on decreasing function, leading to an
+underestimate, but view the theoretical approximate volume as a left Riemann sum
+on the same decreasing function.
+
+Therefore, it makes sense that our actual volume was less than the triple
+integral, but the theoretical approximate volume was greater than the triple
+integral. So, we can calculate our percent error and assume that the percent
+error will be roughly around the percent error for the theoretical approximate
+value. The calculations are as follows:
+\begin{gather*}
+    \text{Percent Error} 
+    = \left| \frac{4718.4896 - 7068.5835}{7068.5835} \right| \times 100
+    = \left| \frac{2350.0939}{7068.5835} \right| \times 100 \\
+    = \left| 0.332470275 \right| \times 100
+    \approx 33 \%
+\end{gather*}
+
+So, we can see that the percent errors are approximately the same, just in
+conceptually different directions, one an underestimate, and the other an
+overestimate. Thus, our actual approximate volume's percent error is
+$\boxed{33\%}$.
 
 \end{document}
