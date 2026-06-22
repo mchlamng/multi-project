@@ -10,4 +10,4 @@
 *.fdb_latexmk
 *.nav
 *.snm
-.pretterrc
+.prettierrc
