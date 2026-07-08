@@ -2,7 +2,7 @@
 
 Final project for AC Multivariable Calculus, exploring quadric surfaces and
 real-world construction. By Diego Adams, Michael Meng, Keshav Harapavat,
-and Parrie Charoenrattanaruk
+and Parrie Charoenrattanaruk.
 
 ## Overview
 
